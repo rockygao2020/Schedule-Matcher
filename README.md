@@ -20,16 +20,23 @@ A program that takes 2 ordered schedules (sequences) and finds the longest sub-s
     ![EX_gym](https://github.com/user-attachments/assets/5c55a828-7d6c-4e79-9b54-09e25c873912)
 
 
-# Requirements
+# How to Use (Simple Option):
 
-1. Download [CURL](https://curl.se/download.html) zip folder.
-2. Build and Link CURL as a static library for the program to access.
-3. Sign up for OpenWeather free plan and copy API key.
-4. Edit main.cpp to replace the API_KEY variable with own API key.
+* Download `Schedule Matcher.exe` and run.
+* Python and dependencies not required.
+* Slower than 2nd option.
 
-# What I Learned
 
-* Use data structures/algorithms to efficiently organize data
-* Object Oriented Programming and Design
-* API calling basics
-* Troubleshooting
+# How to Use (Python Script Option):
+
+* Requires Python and Pip. You can check if you have Python and Pip(usually comes with Python's installation) installed by typing the following into the command prompt and waiting for their version descriptions:
+```
+python
+pip --version
+```
+* Download `main.py` and `schedule_matcher.py` and put them in the same directory.
+* Download PyQt6 using Pip:
+```
+pip install PyQt6
+```
+
