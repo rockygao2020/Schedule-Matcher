@@ -22,7 +22,7 @@ A program that takes 2 ordered schedules (sequences) and finds the longest sub-s
 
 # How to Use (Simple Option):
 
-* Download `Schedule Matcher.exe` and run.
+* Download `Schedule Matcher.exe` from [releases page](https://github.com/rockygao2020/Schedule-Matcher/releases) and run.
 * Python and dependencies not required.
 * Slower than 2nd option.
 
