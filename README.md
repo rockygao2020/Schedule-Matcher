@@ -7,12 +7,12 @@ A program that takes 2 ordered schedules (sequences) and finds the longest sub-s
    as many of them as possible together, without betraying your respective orders.
    ![EX_movies](https://github.com/user-attachments/assets/4f8b3da9-f945-4cb4-b114-14430c53b943)
 
-3. You and your friend are tagging alongside separate groups at a carnival. Each group has their own schedule of carnival rides that they'd like to get through. 
+2. You and your friend are tagging alongside separate groups at a carnival. Each group has their own schedule of carnival rides that they'd like to get through. 
    However, you and your friend would like to enjoy some rides together without leaving your respective groups. The program returns the maximum number of rides
    you two can ride together without forcing your groups to change the order of their schedule.
    ![EX_carnival](https://github.com/user-attachments/assets/43ed465c-2cdd-40d1-a1e2-d50ecf40a8aa)
 
-5.  Miscellaneous examples:
+3.  Miscellaneous examples:
     ![EX_darksouls1](https://github.com/user-attachments/assets/ab85b547-881e-4b35-9231-8b0c3727209d)
 
     ![EX_symbols](https://github.com/user-attachments/assets/46f656ad-8e29-4e32-960d-352400c77815)
@@ -39,4 +39,19 @@ pip --version
 ```
 pip install PyQt6
 ```
+* Run `main.py` using your environment, or open the command prompt in the directory that holds the `.py` files, and type the following:
+```
+python main.py
+```
+# What I Utilized/Learned/Analysis:
+* Tabulation/Dynamic Programming Algorithm to solve the Longest Common Sequence(LCS) problem.
+   * Runtime: O(n*m), where n is the length of the first sequence, and m the length of the second.  
+* Python Modular Programming/Inheritance/Object-Oriented-Programming
+* PyQt6 frontend basics.
+* Pyinstaller app execution basics.
 
+# Resources Used:
+* PyQt6 (Frontend)
+   * The following 2 PyQt functions `deleteItemsOfLayout` and `Window.boxDelete` in `main.py` are taken from The Trowser and Brendan          Abel at [https://stackoverflow.com/questions/37564728/pyqt-how-to-remove-a-layout-from-a-layout]. These 2 functions 
+      helped me trememdously when it came to swapping layouts for the GUI
+* Pyinstaller (Frontend/Making the  `.exe` file)
