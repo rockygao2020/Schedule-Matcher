@@ -52,6 +52,6 @@ python main.py
 
 # Resources Used:
 * PyQt6 (Frontend)
-   * The following 2 PyQt functions `deleteItemsOfLayout` and `Window.boxDelete` in `main.py` are taken from The Trowser and Brendan          Abel at [https://stackoverflow.com/questions/37564728/pyqt-how-to-remove-a-layout-from-a-layout]. These 2 functions 
+   * The following 2 PyQt functions `deleteItemsOfLayout` and `Window.boxDelete` in `main.py` are taken from The Trowser and Brendan          Abel [here] (https://stackoverflow.com/questions/37564728/pyqt-how-to-remove-a-layout-from-a-layout). These 2 functions 
       helped me trememdously when it came to swapping layouts for the GUI
 * Pyinstaller (Frontend/Making the  `.exe` file)
