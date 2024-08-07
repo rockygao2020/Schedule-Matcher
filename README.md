@@ -15,9 +15,10 @@ A program that takes 2 ordered schedules (sequences) and finds the longest sub-s
 3.  Miscellaneous examples:
     ![EX_darksouls1](https://github.com/user-attachments/assets/ab85b547-881e-4b35-9231-8b0c3727209d)
 
-    ![EX_symbols](https://github.com/user-attachments/assets/46f656ad-8e29-4e32-960d-352400c77815)
+    ![EX_symbols](https://github.com/user-attachments/assets/19c64f0b-a28f-41ee-b421-94c4c180edd4)
 
-    ![EX_gym](https://github.com/user-attachments/assets/5c55a828-7d6c-4e79-9b54-09e25c873912)
+   ![EX_gym](https://github.com/user-attachments/assets/d4642ed0-9850-46e6-81e3-2bd379986cc5)
+
 
 
 # How to Use (Simple Option):
